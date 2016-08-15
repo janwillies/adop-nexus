@@ -40,7 +40,7 @@ if [ "${LDAP_ENABLED}" = true ]
 		    <authScheme>simple</authScheme>
 		    <protocol>ldap</protocol>
 		    <host>${LDAP_URL}</host>
-		    <port>${LDAP_PORT:-389}</port>
+		    <port>${LDAP_SERVICE_PORT:-389}</port>
 		  </connectionInfo>
 		  <userAndGroupConfig>
 		    <emailAddressAttribute>${LDAP_USER_EMAIL_ATTRIBUTE:-mail}</emailAddressAttribute>

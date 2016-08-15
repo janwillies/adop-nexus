@@ -7,7 +7,7 @@ ENV LDAP_ENABLED=true \
     NEXUS_HOME=/sonatype-work/ \
     LDAP_SEARCH_BASE="" \
     LDAP_URL="" \
-    LDAP_PORT=389 \
+    LDAP_SERVICE_PORT=389 \
     LDAP_USER_EMAIL_ATTRIBUTE=mail \
     LDAP_GROUPS_AS_ROLES=true \
     LDAP_GROUP_BASE_DN=ou=groups \

@@ -54,7 +54,7 @@ The image reads the following LDAP environment variables:
   * systemUsername - `${LDAP_BIND_DN}`
   * systemPassword - `${LDAP_BIND_PASSWORD}`
   * host - `${LDAP_URL}`
-  * port - `${LDAP_PORT:-389}`
+  * port - `${LDAP_SERVICE_PORT:-389}`
   * emailAddressAttribute - `${LDAP_USER_EMAIL_ATTRIBUTE:-mail}`
   * ldapGroupsAsRoles - `${LDAP_GROUPS_AS_ROLES:-true}`
   * groupBaseDn - `${LDAP_GROUP_BASE_DN}`
